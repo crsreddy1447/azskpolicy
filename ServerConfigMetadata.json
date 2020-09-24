@@ -1,0 +1,26 @@
+{
+    "OnlinePolicyList" : [
+        {
+            "Name" : "AzSK.json"
+        }, 
+        {
+            "Name" : "ControlSettings.json"
+        }, 
+        {
+            "Name" : "FixControlConfig.json"
+        }, 
+        {
+            "Name" : "ServerConfigMetadata.json"
+        }, 
+        {
+            "Name" : "Storage.json"
+        }, 
+        {
+            "Name" : "VirtualMachine.json", 
+            "OverrideOffline" : true
+        }, 
+        {
+            "Name" : "VirtualNetwork.json"
+        }
+    ]
+}

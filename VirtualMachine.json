@@ -1,0 +1,32 @@
+{
+    "Controls": [
+       {
+          "ControlID": "Azure_VirtualMachine_Deploy_Latest_OS_Version",
+          "Description": "Virtual Machine should have latest OS version installed",
+          "Id": "VirtualMachine110",
+          "ControlSeverity": "Medium",
+          "Enabled": false
+       },
+       {
+          "ControlID": "Azure_VirtualMachine_SI_Enable_Antimalware",
+          "Description": "Antimalware must be enabled with real time protection on Virtual Machine",
+          "Id": "VirtualMachine130",
+          "ControlSeverity": "High",
+          "Enabled": false
+	    },
+       {
+       "ControlID": "Azure_VirtualMachine_Config_Enable_NSG",
+
+       "Enabled": false
+     },
+       {
+          "ControlID": "Azure_VirtualMachine_NetSec_Justify_PublicIPs",
+          "Description": "Public IPs on a Virtual Machine should be carefully reviewed",
+          "Id": "VirtualMachine150",
+          "Enabled": false
+        }
+
+       
+    ]
+ }
+ 

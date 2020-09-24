@@ -1,0 +1,92 @@
+[
+    {
+        "ResourceGroups" : [], 
+        "SubscriptionContext" : {
+            "Scope" : "/subscriptions/abc27480-1062-4fe1-8ea5-0209040270c7", 
+            "SubscriptionId" : "abc27480-1062-4fe1-8ea5-0209040270c7", 
+            "SubscriptionName" : "Visual Studio Enterprise Subscription – MPN"
+        }, 
+        "SubscriptionControls" : [
+            {
+                "ChildResourceParams" : [
+                    {
+                        "ChildResourceName" : "", 
+                        "Parameters" : {
+                            "Tags" : ""
+                        }
+                    }
+                ], 
+                "ControlID" : "Azure_Subscription_Config_ARM_Policy", 
+                "ControlSeverity" : "Medium", 
+                "Description" : "ARM policies should be used to audit or deny certain activities in the subscription that can impact security", 
+                "Enabled" : true, 
+                "FixControlImpact" : "Medium", 
+                "Id" : "SubscriptionCore230"
+            }, 
+            {
+                "ChildResourceParams" : [
+                    {
+                        "ChildResourceName" : "", 
+                        "Parameters" : {
+                            "SecurityContactEmails" : "", 
+                            "Tags" : [
+                                "Mandatory"
+                            ]
+                        }
+                    }
+                ], 
+                "ControlID" : "Azure_Subscription_Audit_Configure_Critical_Alerts", 
+                "ControlSeverity" : "High", 
+                "Description" : "Alerts must be configured for critical actions on subscription and resources", 
+                "Enabled" : true, 
+                "FixControlImpact" : "Medium", 
+                "Id" : "SubscriptionCore240"
+            }, 
+            {
+                "ChildResourceParams" : [
+                    {
+                        "ChildResourceName" : "", 
+                        "Parameters" : null
+                    }
+                ], 
+                "ControlID" : "Azure_Subscription_Config_ASC_Security_Policy", 
+                "ControlSeverity" : "High", 
+                "Description" : "Azure Security Center (ASC) policies must be correctly configured on the subscription.", 
+                "Enabled" : true, 
+                "FixControlImpact" : "Medium", 
+                "Id" : "SubscriptionCore330"
+            }, 
+            {
+                "ChildResourceParams" : [
+                    {
+                        "ChildResourceName" : "", 
+                        "Parameters" : null
+                    }
+                ], 
+                "ControlID" : "Azure_Subscription_Config_ASC_Enable_AutoProvisioning", 
+                "ControlSeverity" : "High", 
+                "Description" : "Auto Provisioning must be set to ON in Azure Security Center.", 
+                "Enabled" : true, 
+                "FixControlImpact" : "Medium", 
+                "Id" : "SubscriptionCore340"
+            }, 
+            {
+                "ChildResourceParams" : [
+                    {
+                        "ChildResourceName" : "", 
+                        "Parameters" : {
+                            "SecurityContactEmails" : "", 
+                            "SecurityPhoneNumber" : ""
+                        }
+                    }
+                ], 
+                "ControlID" : "Azure_Subscription_Config_ASC_Setup_SecurityContacts", 
+                "ControlSeverity" : "High", 
+                "Description" : "Security contact details must be configured in Azure Security Center. ", 
+                "Enabled" : true, 
+                "FixControlImpact" : "Medium", 
+                "Id" : "SubscriptionCore350"
+            }
+        ]
+    }
+]
